@@ -53,7 +53,15 @@ angular.module('brazeHqTriviaApp')
               $scope.correct.push(v.screen_name);
             }
           });
+
+          if($scope.game.data.currentQuestion == $scope.game.data.questions.length - 1){
+            console.log("HERE");
+            Host.setGameState('leaderboard');
+
+          }
+          console.log("BEFORESAVE");
           Host.syncObject.$save();
+          console.log($scope);
 					break;
 
         case 'leaderboard':
