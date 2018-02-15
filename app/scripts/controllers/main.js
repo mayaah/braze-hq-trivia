@@ -2,14 +2,14 @@
 
 /**
  * @ngdoc function
- * @name kahootCloneApp.controller:MainCtrl
+ * @name brazeHqTriviaApp.controller:MainCtrl
  * @description
  * # MainCtrl
- * Controller of the kahootCloneApp
+ * Controller of the brazeHqTriviaApp
  */
-angular.module('kahootCloneApp')
+angular.module('brazeHqTriviaApp')
   .controller('MainCtrl', function ($scope, $location, _, fbutil) {
-    
+
   	$scope.newGame = function() {
   		$scope.creatingGame = true;
 

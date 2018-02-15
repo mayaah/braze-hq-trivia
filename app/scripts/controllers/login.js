@@ -1,12 +1,12 @@
 'use strict';
 /**
  * @ngdoc function
- * @name kahootCloneApp.controller:LoginCtrl
+ * @name brazeHqTriviaApp.controller:LoginCtrl
  * @description
  * # LoginCtrl
  * Manages authentication to any active providers.
  */
-angular.module('kahootCloneApp')
+angular.module('brazeHqTriviaApp')
   .controller('LoginCtrl', function ($scope, simpleLogin, $location) {
     $scope.oauthLogin = function(provider) {
       $scope.err = null;

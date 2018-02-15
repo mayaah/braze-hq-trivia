@@ -3,7 +3,7 @@
 describe('Service: Trivia', function () {
 
   // load the service's module
-  beforeEach(module('kahootCloneApp'));
+  beforeEach(module('brazeHqTriviaApp'));
 
   // instantiate service
   var Trivia;

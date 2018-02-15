@@ -1,12 +1,12 @@
 /**
  * @ngdoc function
- * @name kahootCloneApp.directive:ngShowAuth
+ * @name brazeHqTriviaApp.directive:ngShowAuth
  * @description
  * # ngShowAuthDirective
  * A directive that shows elements only when user is logged in. It also waits for simpleLogin
  * to be initialized so there is no initial flashing of incorrect state.
  */
-angular.module('kahootCloneApp')
+angular.module('brazeHqTriviaApp')
   .directive('ngShowAuth', ['simpleLogin', '$timeout', function (simpleLogin, $timeout) {
     'use strict';
     var isLoggedIn;

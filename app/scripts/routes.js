@@ -1,7 +1,7 @@
 'use strict';
 /**
  * @ngdoc overview
- * @name kahootCloneApp:routes
+ * @name brazeHqTriviaApp:routes
  * @description
  * # routes.js
  *
@@ -27,7 +27,7 @@
  *   }
  *
  */
-angular.module('kahootCloneApp')
+angular.module('brazeHqTriviaApp')
 
 /**
  * Adds a special `whenAuthenticated` method onto $routeProvider. This special method,

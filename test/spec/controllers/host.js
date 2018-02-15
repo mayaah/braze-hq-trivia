@@ -3,7 +3,7 @@
 describe('Controller: HostCtrl', function () {
 
   // load the controller's module
-  beforeEach(module('kahootCloneApp'));
+  beforeEach(module('brazeHqTriviaApp'));
 
   var HostCtrl,
     scope;

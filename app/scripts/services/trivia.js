@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc service
- * @name kahootCloneApp.Trivia
+ * @name brazeHqTriviaApp.Trivia
  * @description
  * # Trivia
- * Service in the kahootCloneApp.
+ * Service in the brazeHqTriviaApp.
  */
-angular.module('kahootCloneApp')
+angular.module('brazeHqTriviaApp')
   .service('Trivia', function (_) {
     // AngularJS will instantiate a singleton by calling "new" on this function
 

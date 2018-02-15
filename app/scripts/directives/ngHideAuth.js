@@ -1,13 +1,13 @@
 
 /**
  * @ngdoc function
- * @name kahootCloneApp.directive:ngHideAuth
+ * @name brazeHqTriviaApp.directive:ngHideAuth
  * @description
  * # ngHideAuthDirective
  * A directive that shows elements only when user is logged out. It also waits for simpleLogin
  * to be initialized so there is no initial flashing of incorrect state.
  */
-angular.module('kahootCloneApp')
+angular.module('brazeHqTriviaApp')
   .directive('ngHideAuth', ['simpleLogin', '$timeout', function (simpleLogin, $timeout) {
     'use strict';
     var isLoggedIn;

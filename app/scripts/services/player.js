@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc service
- * @name kahootCloneApp.Player
+ * @name brazeHqTriviaApp.Player
  * @description
  * # Player
- * Service in the kahootCloneApp.
+ * Service in the brazeHqTriviaApp.
  */
-angular.module('kahootCloneApp')
+angular.module('brazeHqTriviaApp')
   .service('Player', function (fbutil, _, $cookieStore) {
     // AngularJS will instantiate a singleton by calling "new" on this function
     var self = this, _so;

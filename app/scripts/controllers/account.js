@@ -6,7 +6,7 @@
  * # AccountCtrl
  * Provides rudimentary account management functions.
  */
-angular.module('kahootCloneApp')
+angular.module('brazeHqTriviaApp')
   .controller('AccountCtrl', function ($scope, user, simpleLogin, fbutil, $timeout) {
     $scope.user = user;
     $scope.logout = simpleLogin.logout;

@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name kahootCloneApp.controller:PlayerCtrl
+ * @name brazeHqTriviaApp.controller:PlayerCtrl
  * @description
  * # PlayerCtrl
- * Controller of the kahootCloneApp
+ * Controller of the brazeHqTriviaApp
  */
-angular.module('kahootCloneApp')
+angular.module('brazeHqTriviaApp')
   .controller('PlayerCtrl', function ($scope, Player, Trivia,$location,$routeParams) {
   	if(! $routeParams.hasOwnProperty('PIN')) {
   		$scope.game = {

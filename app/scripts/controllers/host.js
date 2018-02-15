@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name kahootCloneApp.controller:HostCtrl
+ * @name brazeHqTriviaApp.controller:HostCtrl
  * @description
  * # HostCtrl
- * Controller of the kahootCloneApp
+ * Controller of the brazeHqTriviaApp
  */
-angular.module('kahootCloneApp')
+angular.module('brazeHqTriviaApp')
   .controller('HostCtrl', function ($scope, Host, Trivia, $routeParams,$interval,fbutil) {
 
   	Host.init($routeParams.PIN)

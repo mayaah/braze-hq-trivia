@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc service
- * @name kahootCloneApp.Host
+ * @name brazeHqTriviaApp.Host
  * @description
  * # Host
- * Service in the kahootCloneApp.
+ * Service in the brazeHqTriviaApp.
  */
-angular.module('kahootCloneApp')
+angular.module('brazeHqTriviaApp')
   .service('Host', function (fbutil, Trivia) {
     var self = this, _so;
 

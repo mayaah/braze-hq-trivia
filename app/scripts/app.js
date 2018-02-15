@@ -2,9 +2,9 @@
 
 /**
  * @ngdoc overview
- * @name kahootCloneApp
+ * @name brazeHqTriviaApp
  * @description
- * # kahootCloneApp
+ * # brazeHqTriviaApp
  *
  * Main module of the application.
  */
@@ -14,7 +14,7 @@ underscore.factory('_', ['$window', function($window) {
   return $window._; // assumes underscore has already been loaded on the page
 }]);
 
-angular.module('kahootCloneApp', [
+angular.module('brazeHqTriviaApp', [
     'ngAnimate',
     'ngCookies',
     'ngResource',
