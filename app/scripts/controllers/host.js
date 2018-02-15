@@ -52,6 +52,9 @@ angular.module('brazeHqTriviaApp')
               v.currentPoints = (v.currentPoints || 0) + 100;
               $scope.correct.push(v.screen_name);
             }
+            else {
+              v.eliminated = true;
+            }
           });
 
           Host.syncObject.$save();
