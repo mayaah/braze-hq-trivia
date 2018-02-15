@@ -47,22 +47,24 @@ angular.module('brazeHqTriviaApp')
           $scope.correct = [];
 					$scope.currentQuestion = Host.getCurrentQuestion();
           angular.forEach($scope.game.data.users, function(v,k) {
-            
+
             if(Trivia.checkAnswer(Host.getCurrentQuestion().q, v.answer)) {
               v.currentPoints = (v.currentPoints || 0) + 100;
               $scope.correct.push(v.screen_name);
             }
           });
 
-          if($scope.game.data.currentQuestion == $scope.game.data.questions.length - 1){
-            console.log("HERE");
-            Host.setGameState('leaderboard');
-
-          }
-          console.log("BEFORESAVE");
           Host.syncObject.$save();
-          console.log($scope);
-					break;
+          if($scope.game.data.currentQuestion == $scope.game.data.questions.length - 1){
+            $scope.countdown = 7;
+  					$interval(function() {
+  						$scope.countdown--;
+  					},1000, $scope.countdown)
+  					.then(function() {
+  						Host.setGameState('leaderboard');
+  					});
+          }
+          break;
 
         case 'leaderboard':
           $scope.leaderboard = _.map($scope.game.data.users, function(user) {
@@ -72,7 +74,6 @@ angular.module('brazeHqTriviaApp')
             }
           })
   			}
-
   		})
   	});
 
