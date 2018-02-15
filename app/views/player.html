@@ -33,6 +33,9 @@
 
 
 <div class="row" ng-if="game.data.state=='question'">
+	<h2 ng-if="game.data.users[playerId].eliminated">
+		Sorry, you may not select an answer because you have been eliminated from the game.
+	</h2>
 	<h2>Select Answer Now:</h2>
 	<div class="col-xs-6 "  ng-repeat="answer in game.data.possibleAnswers">
 		<button class="btn btn-default btn-lg"
