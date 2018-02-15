@@ -49,7 +49,7 @@ angular.module('brazeHqTriviaApp')
           angular.forEach($scope.game.data.users, function(v,k) {
 
             if(Trivia.checkAnswer(Host.getCurrentQuestion().q, v.answer)) {
-              v.currentPoints = (v.currentPoints || 0) + 100;
+              v.currentPoints = (v.currentPoints || 0) + 1;
               $scope.correct.push(v.screen_name);
             }
             else {

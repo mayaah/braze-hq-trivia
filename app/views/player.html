@@ -57,7 +57,7 @@
 			<h1 ng-if="game.data.users[playerId].answer != currentQuestion.answer">
 				Sorry, wrong.
 			</h1>
-			<h2>You have {{game.data.users[playerId].currentPoints || 0}} points.</h2>
+			<h2>You have won {{game.data.users[playerId].currentPoints || 0}} round(s).</h2>
 			The answer is "{{currentQuestion.answer}}".
 		</div>
 	</div>
