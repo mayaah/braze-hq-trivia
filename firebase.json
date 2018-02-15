@@ -1,5 +1,5 @@
 {
-  "firebase": "kahootclone",
+  "firebase": "braze-hq-trivia",
   "public": "dist/",
   "ignore": [
     "firebase.json",
