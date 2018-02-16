@@ -15,24 +15,54 @@ angular.module('brazeHqTriviaApp')
 
     self.questions = [
     	{
-    		'q':'What is the capital of Israel?',
-    		'wrong_answers' : ['Tel-Aviv', 'Haifa', 'Eilat'],
-    		'answer' : 'Jerusalem'
+    		'q':'What was Braze formerly known as?',
+    		'wrong_answers' : ['Leanplum', 'Appboi', 'ExactTarget'],
+    		'answer' : 'Appboy'
     	},
     	{
-    		'q' : 'What is the definition of Pi?',
-    		'wrong_answers' : ['Type of pastry', '3.14', 'Shorthand for pizza'],
-    		'answer' : 'Perimeter divided by diameter'
+    		'q' : 'What\'s the name of Bill\'s dog?',
+    		'wrong_answers' : ['Bronx', 'Barney', 'Beyonce'],
+    		'answer' : 'Brooklyn'
     	},
     	{
-    		'q' : 'Who is the creator of TV show Breaking Bad?',
-    		'wrong_answers' : ['Walter White', 'Saul Goodman', 'Vince Vega'],
-    		'answer' : 'Vince Galligan'
+    		'q' : 'What street has our HQ office not been on?',
+    		'wrong_answers' : ['37th', '38th', '39th'],
+    		'answer' : '40th'
+    	},
+    	{
+    		'q' : 'What city is our office not located in?',
+    		'wrong_answers' : ['London', 'Singapore', 'New York'],
+    		'answer' : 'Seattle'
+    	},
+    	{
+    		'q' : 'What word can you form from mixing up all the letters in Braze?',
+    		'wrong_answers' : ['era', 'zerba', 'bar'],
+    		'answer' : 'zebra'
+    	},
+    	{
+    		'q' : 'Who used to be CEO of Appboy?',
+    		'wrong_answers' : ['Mark Hamill', 'Marc Loli', 'Mark Zuckerberg'],
+    		'answer' : 'Mark Ghermezian'
+    	},
+    	{
+    		'q' : 'According to Forrester, Braze is a leader in what?',
+    		'wrong_answers' : ['Marketing Performance Ecosystems', 'Crytocurrency Technologies', 'Lifecycle Engagement'],
+    		'answer' : 'Mobile Engagement Automation'
+    	},
+    	{
+    		'q' : 'In Saas business such as ours, what is ACV?',
+    		'wrong_answers' : ['Air Conditioning Vents', 'Annual Commitment Velocity', 'Accumulated Cash Value'],
+    		'answer' : 'Annual Contract Value'
+    	},
+    	{
+    		'q' : 'What does GDPR stand for?',
+    		'wrong_answers' : ['Granulated Domino\'s Pure Raisons', 'GDP Regulations', 'Global Data Privacy Regulation'],
+    		'answer' : 'General Data Protection Regulation'
     	}
     ];
 
     self.getQuestions = function(){
-    	return _.shuffle(self.questions)
+    	return self.questions
     };
 
     self.getPossibleAnswers = function(question) {

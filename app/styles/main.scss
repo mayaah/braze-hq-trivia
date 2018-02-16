@@ -59,8 +59,13 @@ body {
   border-bottom: 1px solid #e5e5e5;
 
   .btn {
-    font-size: 21px;
+    font-size: 15px;
+    font-weight: 500;
     padding: 14px 24px;
+    background-color: black;
+    border: 3px solid black;
+    border-radius: 0;
+    text-transform: uppercase;
   }
 }
 
