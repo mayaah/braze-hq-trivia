@@ -10,7 +10,7 @@
 		    <input ng-model="$parent.screenName" type="text" class="form-control" id="screenName" placeholder="Choose a screen name">
 		  </div>
 
-		  <button type="submit" ng-if="!joining" class="btn btn-primary btn-lg" ng-click="join()">Join</button>
+		  <button type="submit" ng-if="!joining" id="#btn-black" class="btn btn-primary btn-lg" ng-click="join()">Join</button>
 		  <button class="btn btn-primary btn-lg" ng-disabled="true" ng-if="joining">
 		  	Joining game..
 		  </button>
