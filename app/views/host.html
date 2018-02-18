@@ -50,9 +50,24 @@
 		</h3>
 		<div>
 			<button ng-if="game.data.currentQuestion != game.data.questions.length - 1"
-				class="btn btn-success" ng-click="nextQuestion()">Next Question</button>
+				class="btn btn-success" ng-click="nextHighlight()">Next Highlight</button>
 			<button ng-if="game.data.currentQuestion == game.data.questions.length - 1"
-				class="btn btn-success" ng-click="endGame()">End Game</button>				
+				class="btn btn-success" ng-click="endGame()">End Game</button>
+		</div>
+	</div>
+</div>
+
+<div class="row" ng-if="game.data.state == 'highlight'">
+	<div class="jumbotron">
+		<h3>This highlight goes to...</h3>
+		<h2>{{currentHighlight.name}} </h2>
+		<div class="highlight-img-container col-md-6">
+			<img class="highlight-img" ng-src="{{currentHighlight.image}}">
+		</div>
+		<button ng-if="game.data.currentQuestion != game.data.questions.length - 1"
+			class="btn btn-success" ng-click="nextQuestion()">Next Question</button>
+		<button ng-if="game.data.currentQuestion == game.data.questions.length - 1"
+			class="btn btn-success" ng-click="endGame()">End Game</button>
 		</div>
 	</div>
 </div>

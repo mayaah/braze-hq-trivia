@@ -69,6 +69,10 @@ angular.module('brazeHqTriviaApp')
           }
           break;
 
+        case 'highlight':
+          $scope.currentHighlight = Host.getCurrentHighlight();
+          break;
+
         case 'leaderboard':
           $scope.leaderboard = _.map($scope.game.data.users, function(user) {
             return {
@@ -83,6 +87,11 @@ angular.module('brazeHqTriviaApp')
   	$scope.startGame = function() {
   		$scope.game.data.state = 'preQuestion'
   	};
+
+    $scope.nextHighlight = function() {
+      // $scope.game.data.currentQuestion++;
+      Host.nextHighlight();
+    };
 
     $scope.nextQuestion = function() {
       // $scope.game.data.currentQuestion++;
