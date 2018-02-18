@@ -58,6 +58,11 @@ angular.module('brazeHqTriviaApp')
     		'q' : 'What does GDPR stand for?',
     		'wrong_answers' : ['Granulated Domino\'s Pure Raisons', 'GDP Regulations', 'Global Data Privacy Regulation'],
     		'answer' : 'General Data Protection Regulation'
+    	},
+    	{
+    		'q' : 'Which notable Braze engineer, winner of last year\'s "Best Dashboard Tech Lead" award, is bidding farewell to Braze this Friday? :\'(',
+    		'wrong_answers' : ['Granulated Domino\'s Pure Raisons', 'GDP Regulations', 'Global Data Privacy Regulation'],
+    		'answer' : 'General Data Protection Regulation'
     	}
     ];
 
