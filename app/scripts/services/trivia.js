@@ -19,30 +19,35 @@ angular.module('brazeHqTriviaApp')
     		'wrong_answers' : ['Leanplum', 'Appboi'],
     		'answer' : 'Appboy'
     	},
+        {
+            'q' : 'Who is NOT one of Braze\'s customers?',
+            'wrong_answers' : ['Postmates', 'OkCupid'],
+            'answer' : 'Leanplum'
+        },
+        {
+            'q' : 'What city is our office NOT located in?',
+            'wrong_answers' : ['London', 'Singapore'],
+            'answer' : 'Seattle'
+        },
+        {
+            'q' : 'Which notable Braze engineer, winner of last year\'s "Best Dashboard Tech Lead" award, is bidding farewell to Braze this Friday? :\'(',
+            'wrong_answers' : ['Nick Willet-Jeffries', 'Matt Willet-Jeffries'],
+            'answer' : 'Dylan Petro'
+        },
+        {
+            'q' : 'Who used to be CEO of Appboy?',
+            'wrong_answers' : ['Mark Hamill', 'Marc Loli'],
+            'answer' : 'Mark Ghermezian'
+        },
     	{
     		'q' : 'What\'s the name of Bill\'s dog?',
     		'wrong_answers' : ['Bronx', 'Barney'],
     		'answer' : 'Brooklyn'
     	},
     	{
-    		'q' : 'What street has our HQ office not been on?',
+    		'q' : 'What street has our HQ office NOT been on?',
     		'wrong_answers' : ['37th', '38th'],
     		'answer' : '40th'
-    	},
-    	{
-    		'q' : 'What city is our office not located in?',
-    		'wrong_answers' : ['London', 'Singapore'],
-    		'answer' : 'Seattle'
-    	},
-    	{
-    		'q' : 'What word can you form from mixing up all the letters in Braze?',
-    		'wrong_answers' : ['era', 'bar'],
-    		'answer' : 'zebra'
-    	},
-    	{
-    		'q' : 'Who used to be CEO of Appboy?',
-    		'wrong_answers' : ['Mark Hamill', 'Marc Loli'],
-    		'answer' : 'Mark Ghermezian'
     	},
     	{
     		'q' : 'According to Forrester, Braze is a leader in what?',
@@ -59,17 +64,53 @@ angular.module('brazeHqTriviaApp')
     		'wrong_answers' : ['Granulated Domino\'s Pure Raisins', 'Global Data Privacy Regulation'],
     		'answer' : 'General Data Protection Regulation'
     	},
-    	{
-    		'q' : 'Which notable Braze engineer, winner of last year\'s "Best Dashboard Tech Lead" award, is bidding farewell to Braze this Friday? :\'(',
-    		'wrong_answers' : ['Nick Willet-Jeffries', 'Matt Willet-Jeffries'],
-    		'answer' : 'Dylan Petro'
-    	}
+        {
+            'q' : 'What now-discontinued, absurdly caffeinated, non-FDA-approved supplement famously helped to fuel Appboy’s bleary-eyed early years?',
+            'wrong_answers' : ['Nawgan', 'Body Globe Surge Tropical Berry'],
+            'answer' : 'Kymera'
+        },
+        {
+            'q' : 'Before being called Obi-wan Cannoli, that meeting room used to be called:',
+            'wrong_answers' : ['Darth Tater', 'Bowser’s Castle'],
+            'answer' : 'Marketing 4'
+        }
     ];
 
     self.highlights = [
       {
-        'name' : 'Foo',
-        'image' : 'https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/12512691_10207631690462923_2947255403024823490_n.jpg?oh=034e6f6a76627ceaff83fa7112816dd4&oe=5B1F81B7'
+        'to' : 'Liann',
+        'from' : 'Annie',
+        'image' : 'https://firebasestorage.googleapis.com/v0/b/braze-hq-trivia.appspot.com/o/highlights-liann.jpg?alt=media&token=94516189-140e-431d-a1bf-2eeaaa59e68d'
+      },
+      {
+        'to' : 'The People Team',
+        'from' : 'Anonymous',
+        'image' : 'https://firebasestorage.googleapis.com/v0/b/braze-hq-trivia.appspot.com/o/highlights-people.png?alt=media&token=c8d8a997-7068-4b57-86a9-12482908b1a1'
+      },
+      {
+        'to' : 'Katie Zinman',
+        'from' : 'Anonymous',
+        'image' : 'https://firebasestorage.googleapis.com/v0/b/braze-hq-trivia.appspot.com/o/highlights-katie.jpg?alt=media&token=434f69f6-cc16-4743-b2d7-754378b87af8'
+      },
+      {
+        'to' : 'Matt Hicks',
+        'from' : 'Liann',
+        'image' : 'https://firebasestorage.googleapis.com/v0/b/braze-hq-trivia.appspot.com/o/highlights-matt-hicks.jpg?alt=media&token=3b86380b-bd63-4e5b-bf22-bed7008c4837'
+      },
+      {
+        'to' : 'Erek C',
+        'from' : 'Anonymous',
+        'image' : 'https://firebasestorage.googleapis.com/v0/b/braze-hq-trivia.appspot.com/o/highlights-erek.jpg?alt=media&token=df46d95b-3e95-4adf-b0b0-089fa806ca5a'
+      },
+      {
+        'to' : 'Jesse',
+        'from' : 'Georgia',
+        'image' : 'https://firebasestorage.googleapis.com/v0/b/braze-hq-trivia.appspot.com/o/highlights-jesse.jpg?alt=media&token=48c676fc-f97c-4f16-8718-5b9797374832'
+      },
+      {
+        'to' : 'James M',
+        'from' : 'Anonymous',
+        'image' : 'https://firebasestorage.googleapis.com/v0/b/braze-hq-trivia.appspot.com/o/highlights-james-m.jpg?alt=media&token=9c6eacfb-8ec9-46f6-ba0a-d97a127d61b2'
       }
     ]
 
