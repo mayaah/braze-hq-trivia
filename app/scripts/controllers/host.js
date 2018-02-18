@@ -21,7 +21,7 @@ angular.module('brazeHqTriviaApp')
   			switch(newValue) {
 
   				case 'preQuestion':
-  					$scope.countdown = 5;
+  					$scope.countdown = 6;
   					$interval(function() {
   						$scope.countdown--;
   					},1000, $scope.countdown)
@@ -34,7 +34,7 @@ angular.module('brazeHqTriviaApp')
   					$scope.currentQuestion = Host.getCurrentQuestion();
   					$scope.answers = Trivia.getPossibleAnswers($scope.currentQuestion);
             $scope.game.data.possibleAnswers = $scope.answers;
-					  $scope.countdown = 712132;
+					  $scope.countdown = 6;
   					$interval(function() {
   						$scope.countdown--;
   					},1000, $scope.countdown)
