@@ -88,14 +88,29 @@ angular.module('brazeHqTriviaApp')
         'image' : 'https://firebasestorage.googleapis.com/v0/b/braze-hq-trivia.appspot.com/o/highlights-people.png?alt=media&token=c8d8a997-7068-4b57-86a9-12482908b1a1'
       },
       {
+        'to' : 'all of you playing, trivia on!',
+        'from' : 'your friendly neighborhood zebras',
+        'image' : 'https://firebasestorage.googleapis.com/v0/b/braze-hq-trivia.appspot.com/o/fzwBb.gif?alt=media&token=de98cf20-2cd8-4c48-a0e0-eb3774a3af2d'
+      },
+      {
         'to' : 'Katie Zinman',
         'from' : 'Anonymous',
         'image' : 'https://firebasestorage.googleapis.com/v0/b/braze-hq-trivia.appspot.com/o/highlights-katie.jpg?alt=media&token=434f69f6-cc16-4743-b2d7-754378b87af8'
       },
       {
+        'to' : 'all you #braze-HQties',
+        'from' : 'your friendly neighborhood zebras',
+        'image' : 'https://firebasestorage.googleapis.com/v0/b/braze-hq-trivia.appspot.com/o/giphy.gif?alt=media&token=57ddff6b-f227-4c72-a133-7a3e37fdb57c'
+      },
+      {
         'to' : 'Matt Hicks',
         'from' : 'Liann',
         'image' : 'https://firebasestorage.googleapis.com/v0/b/braze-hq-trivia.appspot.com/o/highlights-matt-hicks.jpg?alt=media&token=3b86380b-bd63-4e5b-bf22-bed7008c4837'
+      },
+      {
+        'to' : 'those who dream',
+        'from' : 'your idealistic neighborhood zebras',
+        'image' : 'https://firebasestorage.googleapis.com/v0/b/braze-hq-trivia.appspot.com/o/tenor.gif?alt=media&token=ed251009-204f-4d68-b354-f50a1d678a14'
       },
       {
         'to' : 'Erek C',
@@ -106,6 +121,11 @@ angular.module('brazeHqTriviaApp')
         'to' : 'Jesse',
         'from' : 'Georgia',
         'image' : 'https://firebasestorage.googleapis.com/v0/b/braze-hq-trivia.appspot.com/o/highlights-jesse.jpg?alt=media&token=48c676fc-f97c-4f16-8718-5b9797374832'
+      },
+      {
+        'to' : 'the party that lives on',
+        'from' : '#youknowusbynow',
+        'image' : 'https://firebasestorage.googleapis.com/v0/b/braze-hq-trivia.appspot.com/o/zebra-party.gif?alt=media&token=359275f4-7d1f-47fe-b617-38955e362b7d'
       },
       {
         'to' : 'James M',
