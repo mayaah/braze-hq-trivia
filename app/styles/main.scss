@@ -16,7 +16,7 @@ body {
   font-family: sailec, Helvetica Neue;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-image: url('../images/gradient-hero.jpg');
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/braze-hq-trivia.appspot.com/o/gradient-hero.jpg?alt=media&token=45e580c7-a80a-4f1a-b5e8-6508d1ce2d01');
   position: relative;
   z-index: 10;
   background-repeat: no-repeat;
@@ -90,7 +90,6 @@ body {
 /* Main marketing message and sign up button */
 .jumbotron {
   text-align: center;
-  border-bottom: 1px solid #e5e5e5;
   background-color: transparent !important;
 
   .btn {
@@ -101,6 +100,7 @@ body {
     border: 3px solid black;
     border-radius: 0;
     text-transform: uppercase;
+    letter-spacing: .10714rem;
   }
 }
 
