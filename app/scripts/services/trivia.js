@@ -25,7 +25,7 @@ angular.module('brazeHqTriviaApp')
             'answer' : 'Leanplum'
         },
         {
-            'q' : 'What city is our office NOT located in?',
+            'q' : 'What city do we NOT have an office in?',
             'wrong_answers' : ['London', 'Singapore'],
             'answer' : 'Seattle'
         },
