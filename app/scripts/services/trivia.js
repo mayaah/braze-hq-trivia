@@ -60,7 +60,7 @@ angular.module('brazeHqTriviaApp')
     		'answer' : 'Annual Contract Value'
     	},
     	{
-    		'q' : 'What does GDPR stand for?',
+    		'q' : 'What does GDPR stand for, in the context of Braze?',
     		'wrong_answers' : ['Granulated Domino\'s Pure Raisins', 'Global Data Privacy Regulation'],
     		'answer' : 'General Data Protection Regulation'
     	},
