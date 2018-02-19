@@ -41,7 +41,7 @@ angular.module('brazeHqTriviaApp')
         },
     	{
     		'q' : 'What\'s the name of Bill\'s dog?',
-    		'wrong_answers' : ['Bronx', 'Barney'],
+    		'wrong_answers' : ['Beyonce', 'Barney'],
     		'answer' : 'Brooklyn'
     	},
     	{
