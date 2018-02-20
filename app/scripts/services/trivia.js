@@ -98,7 +98,7 @@ angular.module('brazeHqTriviaApp')
         'image' : 'https://firebasestorage.googleapis.com/v0/b/braze-hq-trivia.appspot.com/o/highlights-brad.jpg?alt=media&token=eb4a3cce-f630-4b69-bbcf-6a2997e0603c'
       },
       {
-        'to' : 'all those playing, trivia on',
+        'to' : 'all of you playing, trivia on!',
         'from' : 'your friendly neighborhood zebras',
         'image' : 'https://firebasestorage.googleapis.com/v0/b/braze-hq-trivia.appspot.com/o/zebra-party.gif?alt=media&token=359275f4-7d1f-47fe-b617-38955e362b7d'
       },
