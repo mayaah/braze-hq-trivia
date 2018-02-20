@@ -55,7 +55,7 @@ angular.module('brazeHqTriviaApp')
     		'answer' : 'Mobile Engagement Automation'
     	},
     	{
-    		'q' : 'In Saas business such as ours, what is ACV?',
+    		'q' : 'In SaaS business such as ours, what is ACV?',
     		'wrong_answers' : ['Air Conditioning Vents', 'Accumulated Cash Value'],
     		'answer' : 'Annual Contract Value'
     	},
