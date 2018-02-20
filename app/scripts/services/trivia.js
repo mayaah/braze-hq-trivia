@@ -26,7 +26,7 @@ angular.module('brazeHqTriviaApp')
         },
         {
             'q' : 'What city do we NOT have an office in?',
-            'wrong_answers' : ['London', 'Singapore'],
+            'wrong_answers' : ['London', 'San Francisco'],
             'answer' : 'Seattle'
         },
         {
