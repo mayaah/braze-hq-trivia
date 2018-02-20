@@ -88,19 +88,19 @@ angular.module('brazeHqTriviaApp')
         'image' : 'https://firebasestorage.googleapis.com/v0/b/braze-hq-trivia.appspot.com/o/highlights-people.png?alt=media&token=c8d8a997-7068-4b57-86a9-12482908b1a1'
       },
       {
-        'to' : 'all of you playing, trivia on!',
-        'from' : 'your friendly neighborhood zebras',
-        'image' : 'https://firebasestorage.googleapis.com/v0/b/braze-hq-trivia.appspot.com/o/fzwBb.gif?alt=media&token=de98cf20-2cd8-4c48-a0e0-eb3774a3af2d'
+        'to' : 'Kathryn',
+        'from' : 'Kelsey',
+        'image' : 'https://firebasestorage.googleapis.com/v0/b/braze-hq-trivia.appspot.com/o/highlights-kathryn.jpg?alt=media&token=95915a33-bec5-44de-a0fd-31170f077c7b'
       },
       {
-        'to' : 'Katie Zinman',
-        'from' : 'Anonymous',
-        'image' : 'https://firebasestorage.googleapis.com/v0/b/braze-hq-trivia.appspot.com/o/highlights-katie.jpg?alt=media&token=434f69f6-cc16-4743-b2d7-754378b87af8'
+        'to' : 'Brad E.',
+        'from' : 'Jackie',
+        'image' : 'https://firebasestorage.googleapis.com/v0/b/braze-hq-trivia.appspot.com/o/highlights-brad.jpg?alt=media&token=eb4a3cce-f630-4b69-bbcf-6a2997e0603c'
       },
       {
-        'to' : 'all you #braze-HQties',
+        'to' : 'all those playing, trivia on',
         'from' : 'your friendly neighborhood zebras',
-        'image' : 'https://firebasestorage.googleapis.com/v0/b/braze-hq-trivia.appspot.com/o/giphy.gif?alt=media&token=57ddff6b-f227-4c72-a133-7a3e37fdb57c'
+        'image' : 'https://firebasestorage.googleapis.com/v0/b/braze-hq-trivia.appspot.com/o/zebra-party.gif?alt=media&token=359275f4-7d1f-47fe-b617-38955e362b7d'
       },
       {
         'to' : 'Matt Hicks',
@@ -108,8 +108,8 @@ angular.module('brazeHqTriviaApp')
         'image' : 'https://firebasestorage.googleapis.com/v0/b/braze-hq-trivia.appspot.com/o/highlights-matt-hicks.jpg?alt=media&token=3b86380b-bd63-4e5b-bf22-bed7008c4837'
       },
       {
-        'to' : 'those who dream',
-        'from' : 'your idealistic neighborhood zebras',
+        'to' : 'Whoever has been involved in adding all the decorations to the HQ office',
+        'from' : 'Brian',
         'image' : 'https://firebasestorage.googleapis.com/v0/b/braze-hq-trivia.appspot.com/o/tenor.gif?alt=media&token=ed251009-204f-4d68-b354-f50a1d678a14'
       },
       {
@@ -123,9 +123,9 @@ angular.module('brazeHqTriviaApp')
         'image' : 'https://firebasestorage.googleapis.com/v0/b/braze-hq-trivia.appspot.com/o/highlights-jesse.jpg?alt=media&token=48c676fc-f97c-4f16-8718-5b9797374832'
       },
       {
-        'to' : 'the party that lives on',
-        'from' : '#youknowusbynow',
-        'image' : 'https://firebasestorage.googleapis.com/v0/b/braze-hq-trivia.appspot.com/o/zebra-party.gif?alt=media&token=359275f4-7d1f-47fe-b617-38955e362b7d'
+        'to' : 'all you #braze-HQties',
+        'from' : 'your friendly neighborhood zebras',
+        'image' : 'https://firebasestorage.googleapis.com/v0/b/braze-hq-trivia.appspot.com/o/fzwBb.gif?alt=media&token=de98cf20-2cd8-4c48-a0e0-eb3774a3af2d'
       },
       {
         'to' : 'James M',
