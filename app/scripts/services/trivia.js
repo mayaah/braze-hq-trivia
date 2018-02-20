@@ -64,16 +64,16 @@ angular.module('brazeHqTriviaApp')
     		'wrong_answers' : ['Granulated Domino\'s Pure Raisins', 'Global Data Privacy Regulation'],
     		'answer' : 'General Data Protection Regulation'
     	},
-        {
-            'q' : 'What now-discontinued, absurdly caffeinated, non-FDA-approved supplement famously helped to fuel Appboy’s bleary-eyed early years?',
-            'wrong_answers' : ['Nawgan', 'Body Globe Surge Tropical Berry'],
-            'answer' : 'Kymera'
-        },
-        {
-            'q' : 'Before being called Obi-wan Cannoli, that meeting room used to be called:',
-            'wrong_answers' : ['Darth Tater', 'Bowser’s Castle'],
-            'answer' : 'Marketing 4'
-        }
+      {
+          'q' : 'Before being called Obi-wan Cannoli, that meeting room used to be called:',
+          'wrong_answers' : ['Darth Tater', 'Bowser’s Castle'],
+          'answer' : 'Marketing 4'
+      },
+      {
+          'q' : 'What now-discontinued, absurdly caffeinated, non-FDA-approved supplement famously helped to fuel Appboy’s bleary-eyed early years?',
+          'wrong_answers' : ['Nawgan', 'Body Globe Surge Tropical Berry'],
+          'answer' : 'Kymera'
+      }
     ];
 
     self.highlights = [
