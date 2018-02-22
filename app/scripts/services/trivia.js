@@ -65,9 +65,9 @@ angular.module('brazeHqTriviaApp')
     		'answer' : 'General Data Protection Regulation'
     	},
       {
-          'q' : 'Before being called Obi-wan Cannoli, that meeting room used to be called:',
-          'wrong_answers' : ['Darth Tater', 'Bowser’s Castle'],
-          'answer' : 'Marketing 4'
+          'q' : 'Before being called Backstreet Appboy, that meeting room used to be called:',
+          'wrong_answers' : ['Golden Gate', 'Thriving Ivory'],
+          'answer' : 'Unicorn'
       },
       {
           'q' : 'What now-discontinued, absurdly caffeinated, non-FDA-approved supplement famously helped to fuel Appboy’s bleary-eyed early years?',
@@ -78,24 +78,24 @@ angular.module('brazeHqTriviaApp')
 
     self.highlights = [
       {
-        'to' : 'Liann',
-        'from' : 'Annie',
-        'image' : 'https://firebasestorage.googleapis.com/v0/b/braze-hq-trivia.appspot.com/o/highlights-liann.jpg?alt=media&token=94516189-140e-431d-a1bf-2eeaaa59e68d'
+        'to' : 'Jenny',
+        'from' : 'Patrick',
+        'image' : 'https://firebasestorage.googleapis.com/v0/b/braze-hq-trivia.appspot.com/o/highlights-jenny.jpg?alt=media&token=178e6827-ec76-49e4-8c4b-290e93295056'
       },
       {
-        'to' : 'The People Team',
+        'to' : 'Ali',
+        'from' : 'Justin',
+        'image' : 'https://firebasestorage.googleapis.com/v0/b/braze-hq-trivia.appspot.com/o/highlights-ali.jpg?alt=media&token=c2e18e08-840e-41ca-97ad-8f011bbd38bb'
+      },
+      {
+        'to' : 'Mitch',
+        'from' : 'Dylan',
+        'image' : 'https://firebasestorage.googleapis.com/v0/b/braze-hq-trivia.appspot.com/o/highlights-mitch.jpg?alt=media&token=b62f01b1-ffc0-4e4d-9738-1cf9bc8ca9a4'
+      },
+      {
+        'to' : 'Caroline ',
         'from' : 'Anonymous',
-        'image' : 'https://firebasestorage.googleapis.com/v0/b/braze-hq-trivia.appspot.com/o/highlights-people.png?alt=media&token=c8d8a997-7068-4b57-86a9-12482908b1a1'
-      },
-      {
-        'to' : 'Kathryn',
-        'from' : 'Kelsey',
-        'image' : 'https://firebasestorage.googleapis.com/v0/b/braze-hq-trivia.appspot.com/o/highlights-kathryn.jpg?alt=media&token=95915a33-bec5-44de-a0fd-31170f077c7b'
-      },
-      {
-        'to' : 'Brad E.',
-        'from' : 'Jackie',
-        'image' : 'https://firebasestorage.googleapis.com/v0/b/braze-hq-trivia.appspot.com/o/highlights-brad.jpg?alt=media&token=eb4a3cce-f630-4b69-bbcf-6a2997e0603c'
+        'image' : 'https://firebasestorage.googleapis.com/v0/b/braze-hq-trivia.appspot.com/o/highlights-caroline.jpg?alt=media&token=0ca3a010-4327-4e57-aca5-6c08ce649b8d'
       },
       {
         'to' : 'all of you playing, trivia on!',
@@ -103,24 +103,24 @@ angular.module('brazeHqTriviaApp')
         'image' : 'https://firebasestorage.googleapis.com/v0/b/braze-hq-trivia.appspot.com/o/zebra-party.gif?alt=media&token=359275f4-7d1f-47fe-b617-38955e362b7d'
       },
       {
-        'to' : 'Matt Hicks',
-        'from' : 'Liann',
-        'image' : 'https://firebasestorage.googleapis.com/v0/b/braze-hq-trivia.appspot.com/o/highlights-matt-hicks.jpg?alt=media&token=3b86380b-bd63-4e5b-bf22-bed7008c4837'
+        'to' : 'Paul',
+        'from' : 'Katie',
+        'image' : 'https://firebasestorage.googleapis.com/v0/b/braze-hq-trivia.appspot.com/o/highlights-paul.jpg?alt=media&token=2f448f32-06ee-49f5-bf53-0ec9dad9a8d7'
       },
       {
-        'to' : 'Whoever has been involved in adding all the decorations to the HQ office',
-        'from' : 'Brian',
-        'image' : 'https://firebasestorage.googleapis.com/v0/b/braze-hq-trivia.appspot.com/o/tenor.gif?alt=media&token=ed251009-204f-4d68-b354-f50a1d678a14'
+        'to' : 'Jena',
+        'from' : 'Jenny',
+        'image' : 'https://firebasestorage.googleapis.com/v0/b/braze-hq-trivia.appspot.com/o/highlights-jena.jpg?alt=media&token=914e5a71-83fc-42aa-b4a5-fc4e53f3ea93'
       },
       {
-        'to' : 'Erek C',
-        'from' : 'Anonymous',
-        'image' : 'https://firebasestorage.googleapis.com/v0/b/braze-hq-trivia.appspot.com/o/highlights-erek.jpg?alt=media&token=df46d95b-3e95-4adf-b0b0-089fa806ca5a'
+        'to' : 'Jackie',
+        'from' : 'Brad E',
+        'image' : 'https://firebasestorage.googleapis.com/v0/b/braze-hq-trivia.appspot.com/o/highlights-jackie.jpg?alt=media&token=24f65850-1146-4f6d-9fd9-7e853e4b0803'
       },
       {
-        'to' : 'Jesse',
-        'from' : 'Georgia',
-        'image' : 'https://firebasestorage.googleapis.com/v0/b/braze-hq-trivia.appspot.com/o/highlights-jesse.jpg?alt=media&token=48c676fc-f97c-4f16-8718-5b9797374832'
+        'to' : 'Aziz',
+        'from' : 'Christina',
+        'image' : 'https://firebasestorage.googleapis.com/v0/b/braze-hq-trivia.appspot.com/o/highlights-aziz.jpg?alt=media&token=aeb67157-6ea7-4950-beab-606e9f626d3d'
       },
       {
         'to' : 'all you #braze-HQties',
@@ -128,9 +128,9 @@ angular.module('brazeHqTriviaApp')
         'image' : 'https://firebasestorage.googleapis.com/v0/b/braze-hq-trivia.appspot.com/o/fzwBb.gif?alt=media&token=de98cf20-2cd8-4c48-a0e0-eb3774a3af2d'
       },
       {
-        'to' : 'James M',
-        'from' : 'Anonymous',
-        'image' : 'https://firebasestorage.googleapis.com/v0/b/braze-hq-trivia.appspot.com/o/highlights-james-m.jpg?alt=media&token=9c6eacfb-8ec9-46f6-ba0a-d97a127d61b2'
+        'to' : 'Trevor',
+        'from' : 'Jackie',
+        'image' : 'https://firebasestorage.googleapis.com/v0/b/braze-hq-trivia.appspot.com/o/highlights-trevor.jpg?alt=media&token=42f3560f-4060-4ed0-b83c-b9d3c9b7121b'
       }
     ]
 
